@@ -1,4 +1,6 @@
-
+.menuBurguer{
+  display: none;
+}
 /* Large Devices, Wide Screens :1200px
 ====================================*/
 @media (min-width: 1200px) and (max-width: 1500px) {
@@ -21,6 +23,13 @@
 /* Tablet desktop :768px
 ===================================*/
 @media (min-width: 768px) and (max-width: 991px) {
+.menuBurguer{
+  display: block;
+}
+
+.menuNormal{
+  display: none;
+}
 
 .right .mainmenu {
   display: none;
@@ -167,6 +176,13 @@ footer .right.floatright {
   min-height: 122px;
 }
 
+.menuBurguer{
+  display: block;
+}
+
+.menuNormal{
+  display: none;
+}
 }
 
 /* Large Mobile :480px
@@ -203,4 +219,11 @@ footer .right.floatright {
   width: 450px;
 }
 
+.menuBurguer{
+  display: block;
+}
+
+.menuNormal{
+  display: none;
+}
 }
